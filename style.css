@@ -98,10 +98,37 @@ main {
     display: block;
 }
 
+/* Publication info */
+.publication-info {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.dates {
+    background: rgba(139, 69, 19, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #8B4513;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.dates p {
+    margin: 8px 0;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.dates p strong {
+    color: #8B4513;
+    font-weight: 600;
+}
+
 /* Review sections */
 .review-overview,
 .review-details,
-.final-thoughts {
+.final-thoughts,
+.related-reviews {
     margin-bottom: 50px;
 }
 
@@ -348,6 +375,55 @@ h3 {
 .recommendation-text {
     font-size: 1.1rem;
     color: #666;
+}
+
+/* Related Reviews */
+.review-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-link-item {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #8B4513;
+}
+
+.review-link-item h3 {
+    color: #8B4513;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.review-link-item p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.review-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #8B4513, #CD853F);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(139, 69, 19, 0.3);
+}
+
+.review-link:hover {
+    background: linear-gradient(135deg, #A0522D, #DEB887);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(139, 69, 19, 0.4);
+    color: white;
 }
 
 /* Footer */
