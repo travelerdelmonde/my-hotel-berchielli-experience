@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\Users\\alex\\OneDrive\\Programs\\image processing\\exiftool-13.34_64/**)",
+      "Bash(\"C:\\Users\\alex\\OneDrive\\Programs\\image processing\\exiftool-13.34_64\\exiftool(-k).exe\" \"D:\\git\\my-hotel-berchielli-experience\\images\\car-damage-2.jpg\")",
+      "Bash(\"C:\\Users\\alex\\OneDrive\\Programs\\image processing\\exiftool-13.34_64\\exiftool(-k).exe\" \"D:\\git\\my-hotel-berchielli-experience\\images\\liability-document-redacted.jpg\")",
+      "Bash(\"C:\\Users\\alex\\OneDrive\\Programs\\image processing\\exiftool-13.34_64\\exiftool(-k).exe\" \"D:\\git\\my-hotel-berchielli-experience\\images\\rental-charges.png\")",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
