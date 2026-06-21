@@ -124,6 +124,44 @@ main {
     font-weight: 600;
 }
 
+/* Resolution / Update notice */
+.resolution {
+    margin-bottom: 50px;
+}
+
+.resolution h2 {
+    color: #228B22;
+}
+
+.resolution h2::after {
+    background: #2E8B57;
+}
+
+.resolution-content {
+    background: #f0f7f0;
+    border: 2px solid #cfe6cf;
+    border-left: 6px solid #228B22;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.resolution-content p {
+    font-size: 1.15rem;
+    margin-bottom: 15px;
+    line-height: 1.75;
+    color: #333;
+}
+
+.resolution-content p:last-child {
+    margin-bottom: 0;
+}
+
+.resolution-content p strong {
+    color: #1c6b1c;
+    font-weight: 600;
+}
+
 /* Review sections */
 .review-overview,
 .review-details,
